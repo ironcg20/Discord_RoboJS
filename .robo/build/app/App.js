@@ -1,0 +1,16 @@
+import { DiscordContextProvider } from "../hooks/useDiscordSdk.js";
+import { Activity } from "./Activity.js";
+import "./App.css";
+/**
+ * 🔒 Set `authenticate` to true to enable Discord authentication
+ * You can also set the `scope` prop to request additional permissions
+ *
+ * Example:
+ * ```tsx
+ * <DiscordContextProvider authenticate scope={['identify', 'guilds']}>
+ * ```
+ */ export default function App() {
+    return /*#__PURE__*/ React.createElement(DiscordContextProvider, null, /*#__PURE__*/ React.createElement(Activity, null));
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcZmlzaDU4NThcXERvY3VtZW50c1xcRGlzY29yZF9yb2JvXFxzcmNcXGFwcFxcQXBwLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBEaXNjb3JkQ29udGV4dFByb3ZpZGVyIH0gZnJvbSAnLi4vaG9va3MvdXNlRGlzY29yZFNkaydcbmltcG9ydCB7IEFjdGl2aXR5IH0gZnJvbSAnLi9BY3Rpdml0eSdcbmltcG9ydCAnLi9BcHAuY3NzJ1xuXG4vKipcbiAqIPCflJIgU2V0IGBhdXRoZW50aWNhdGVgIHRvIHRydWUgdG8gZW5hYmxlIERpc2NvcmQgYXV0aGVudGljYXRpb25cbiAqIFlvdSBjYW4gYWxzbyBzZXQgdGhlIGBzY29wZWAgcHJvcCB0byByZXF1ZXN0IGFkZGl0aW9uYWwgcGVybWlzc2lvbnNcbiAqXG4gKiBFeGFtcGxlOlxuICogYGBgdHN4XG4gKiA8RGlzY29yZENvbnRleHRQcm92aWRlciBhdXRoZW50aWNhdGUgc2NvcGU9e1snaWRlbnRpZnknLCAnZ3VpbGRzJ119PlxuICogYGBgXG4gKi9cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCgpIHtcblx0cmV0dXJuIChcblx0XHQ8RGlzY29yZENvbnRleHRQcm92aWRlcj5cblx0XHRcdDxBY3Rpdml0eSAvPlxuXHRcdDwvRGlzY29yZENvbnRleHRQcm92aWRlcj5cblx0KVxufVxuIl0sIm5hbWVzIjpbIkRpc2NvcmRDb250ZXh0UHJvdmlkZXIiLCJBY3Rpdml0eSIsIkFwcCJdLCJyYW5nZU1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OyIsIm1hcHBpbmdzIjoiQUFBQSxTQUFTQSxzQkFBc0IsUUFBUSw0QkFBd0I7QUFDL0QsU0FBU0MsUUFBUSxRQUFRLGdCQUFZO0FBQ3JDLE9BQU8sWUFBVztBQUVsQjs7Ozs7Ozs7Q0FRQyxHQUNELGVBQWUsU0FBU0M7SUFDdkIscUJBQ0Msb0JBQUNGLDRDQUNBLG9CQUFDQztBQUdKIn0=
